@@ -1,0 +1,316 @@
+/*  FONTS */
+
+/* syncopate-regular - latin */
+@font-face {
+  font-family: 'Syncopate';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/syncopate-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Syncopate'), local('Syncopate-Regular'),
+  url('../fonts/syncopate-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/syncopate-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/syncopate-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/syncopate-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/syncopate-v7-latin-regular.svg#Syncopate') format('svg'); /* Legacy iOS */
+}
+
+.syncopate-1 {
+  font: 1em 'Syncopate';
+}
+
+.syncopate-2 {
+  font: 1.15em 'Syncopate';
+}
+
+.syncopate-3 {
+  font: 1.5em 'Syncopate';
+}
+
+/*  COLORS  */
+
+.fern {
+  color: #41a032;
+}
+
+.some-other-green {
+  color: #66cb78;
+}
+
+.blue1 {
+  color: #00A5CF;
+}
+
+.blue2 {
+  color: #00B9AE;
+}
+
+/*  STYLEZ  */
+
+html, body {
+  height: 100%;
+  background: white;
+  margin: 0;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navigation {
+  text-transform: uppercase;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+
+.top-nav {
+  position: absolute;
+  right: 0px;
+  top: 28px;
+}
+
+.footer-nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-nav img {
+  max-width: 44px;
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+
+.text--line {
+  font: 2.5em 'Syncopate'; }
+
+.text--line1 {
+  font: 5em 'Syncopate'; }
+
+.text--line2 {
+  font: 6.5em 'Syncopate'; }
+
+svg {
+  max-height: 600px;
+}
+
+.text-copy {
+  fill: none;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 2px;
+  animation: stroke-offset 3s linear;
+  animation-delay: -.8s;}
+
+.text-copy:nth-child(1) {
+  stroke: #41a032;
+  stroke-dashoffset: 7%; }
+.text-copy:nth-child(2) {
+  stroke: #66cb78;
+  stroke-dashoffset: 14%; }
+.text-copy:nth-child(3) {
+  stroke: #00A5CF;
+  stroke-dashoffset: 21%; }
+.text-copy:nth-child(4) {
+  stroke: #00B9AE;
+  stroke-dashoffset: 28%; }
+.text-copy:nth-child(5) {
+  stroke: #41a032;
+  stroke-dashoffset: 35%; }
+
+
+@keyframes stroke-offset {
+  20% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;}
+}
+
+/* PEOPLE */
+
+#people-container { height:50%; margin:0; padding:0 }
+.people-div { position:fixed; width:50%; height:50% }
+#mnowak { top:0;   left:0;   background:orange  }
+#researchers { top:0;   left:50%; background:blue    }
+#gradstudents { top:50%; left:0;   background:green   }
+#staff { top:50%; left:50%; background:red     }
+
+/* HELPERS */
+
+.max-width {
+  max-width: 1080px;
+}
+
+.m-all-1 {
+  margin: 4px;
+}
+
+.m-all-2 {
+  margin: 8px;
+}
+
+.m-all-3 {
+  margin: 16px;
+}
+
+.m-all-4 {
+  margin: 32px;
+}
+
+.m-all-5 {
+  margin: 48px;
+}
+
+.m-all-6 {
+  margin: 64px;
+}
+
+.m-x-auto {
+  margin: 0 auto;
+}
+
+.m-x-1 {
+  margin: 0 4px;
+}
+
+.m-x-2 {
+  margin: 0 8px;
+}
+
+.m-x-3 {
+  margin: 0 16px;
+}
+
+.m-x-4 {
+  margin: 0 32px;
+}
+
+.m-x-5 {
+  margin: 0 48px;
+}
+
+.m-x-6 {
+  margin: 0 64px;
+}
+
+.m-y-1 {
+  margin: 4px 0;
+}
+
+.m-y-2 {
+  margin: 8px 0;
+}
+
+.m-y-3 {
+  margin: 16px 0;
+}
+
+.m-y-4 {
+  margin: 32px 0;
+}
+
+.m-y-5 {
+  margin: 48px 0;
+}
+
+.m-y-6 {
+  margin: 64px 0;
+}
+
+.p-all-1 {
+  padding: 4px;
+}
+
+.p-all-2 {
+  padding: 8px;
+}
+
+.p-all-3 {
+  padding: 16px;
+}
+
+.p-all-4 {
+  padding: 32px;
+}
+
+.p-all-5 {
+  padding: 48px;
+}
+
+.p-all-6 {
+  padding: 64px;
+}
+
+.p-x-1 {
+  padding: 0 4px;
+}
+
+.p-x-2 {
+  padding: 0 8px;
+}
+
+.p-x-3 {
+  padding: 0 16px;
+}
+
+.p-x-4 {
+  padding: 0 32px;
+}
+
+.p-x-5 {
+  padding: 0 48px;
+}
+
+.p-x-6 {
+  padding: 0 64px;
+}
+
+.p-y-1 {
+  padding: 4px 0;
+}
+
+.p-y-2 {
+  padding: 4px 0;
+}
+
+.p-y-3 {
+  padding: 16px 0;
+}
+
+.p-y-4 {
+  padding: 32px 0;
+}
+
+.p-y-5 {
+  padding: 48px 0;
+}
+
+.p-y-6 {
+  padding: 64px 0;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-25 {
+  width: 25%;
+}
