@@ -32,12 +32,12 @@
 /* Colors
    ========================================================================== */
 
-.fern {
-  color: #41a032;
+.crimson {
+  color: #A51C30;
 }
 
 .some-other-green {
-  color: #66cb78;
+  color: #A51C30;
 }
 
 .blue1 {
@@ -79,14 +79,21 @@ html, body {
   max-width: 44px;
 }
 
+.front-fade {
+  animation: fade-in;
+  animation-delay: 2.5s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
 .text--line {
-  font: 3.5em 'Syncopate'; }
+  font: 2.5em 'Syncopate'; }
 
 .text--line1 {
-  font: 7em 'Syncopate'; }
+  font: 9.5em 'Syncopate'; }
 
 .text--line2 {
-  font: 9em 'Syncopate'; }
+  font: 11.5em 'Syncopate'; }
 
 svg {
   /*max-height: 600px;*/
@@ -100,19 +107,19 @@ svg {
   animation-delay: -.8s;}
 
 .text-copy:nth-child(1) {
-  stroke: #41a032;
+  stroke: #4C94B9;
   stroke-dashoffset: 7%; }
 .text-copy:nth-child(2) {
-  stroke: #66cb78;
+  stroke: #6A6C8B;
   stroke-dashoffset: 14%; }
 .text-copy:nth-child(3) {
-  stroke: #00A5CF;
+  stroke: #3989A0;
   stroke-dashoffset: 21%; }
 .text-copy:nth-child(4) {
-  stroke: #00B9AE;
+  stroke: #2FBDE7;
   stroke-dashoffset: 28%; }
 .text-copy:nth-child(5) {
-  stroke: #41a032;
+  stroke: #A51C30;
   stroke-dashoffset: 35%; }
 
 
@@ -121,6 +128,11 @@ svg {
     stroke-dashoffset: 35%;
     stroke-dasharray: 0 87.5%;}
 }
+
+@keyframes fade-in {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+} 
 
 /* PEOPLE */
 
