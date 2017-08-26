@@ -28,6 +28,10 @@
   font: 1.5em 'Syncopate';
 }
 
+.syncopate-4 {
+  font: 1.75em 'Syncopate';
+}
+
 
 /* Colors
    ========================================================================== */
@@ -58,10 +62,16 @@ html, body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .wrapper {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   margin: 0 auto;
-  height: 100%;`
 }
 
 .navigation {
@@ -73,6 +83,28 @@ html, body {
   display: inline-block;
   padding: 10px;
   color: black;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 3;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
 }
 
 .footer-nav img {
@@ -94,10 +126,6 @@ html, body {
 
 .text--line2 {
   font: 11.5em 'Syncopate'; }
-
-svg {
-  /*max-height: 600px;*/
-}
 
 .text-copy {
   fill: none;
